@@ -10,7 +10,7 @@ class Animator:
         self.w = gl.GLViewWidget()
         self.w.opts["distance"] = 350
         self.w.setWindowTitle(title)
-        self.w.setGeometry(0, 0, 720, 480)
+        self.w.setGeometry(50, 50, 720, 480)
         self.w.show()
 
         self.limit = limit
